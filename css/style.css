@@ -1,0 +1,46 @@
+/*
+ * Practical Code Finder — Academic Stylesheet (css/style.css)
+ * Light academic theme with restrained blue/green accents, accessible contrast,
+ * subtle 1px borders, tabular numerals, and horizontal-scrolling code blocks.
+ */
+
+:root {
+  --bg-canvas: #f8fafc;
+  --bg-surface: #ffffff;
+  --bg-code: #0f172a;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --border-subtle: #e2e8f0;
+  --accent-primary: #1d4ed8;
+  --accent-primary-hover: #1e40af;
+  --accent-success: #15803d;
+  --accent-danger: #b91c1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+pre,
+code {
+  font-family: 'JetBrains Mono', 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.code-viewer {
+  overflow-x: auto;
+  white-space: pre;
+  tab-size: 4;
+  line-height: 1.55;
+}

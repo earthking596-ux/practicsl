@@ -1,0 +1,6 @@
+{
+  "name": "Practical Code Finder",
+  "description": "Search your practical. Get the code. Copy in one click. Public academic repository for Artificial Intelligence, Ethical Hacking, STQA, and Cryptography & Network Security practicals backed by Supabase PostgreSQL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
